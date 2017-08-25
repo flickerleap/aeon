@@ -3,7 +3,7 @@ AEON SWITCH
 
 [![Travis](https://travis-ci.org/codeChap/Aeon.svg?style=flat-square)](https://travis-ci.org/codeChap/Aeon)
 
-3RD Party Electricity Integration Package
+Fork of CodeHap's Aeon 3RD Party Electricity Integration Package
 
 ## What does this do?
 
@@ -41,7 +41,7 @@ Use [composer](http://getcomposer.org) to install it or simply include the files
     $aeon[] = new CodeChap\Request\Electricity($meterNumber, $rands, $reference);
     $aeon->execute();
 
-    // If the above is accpeted you can ask the user to make payment with what ever methods you choose //
+    // If the above is accepted you can ask the user to make payment with what ever methods you choose //
 
     // Confirm the sale
     $aeon = new CodeChap\Aeon($this->config);
